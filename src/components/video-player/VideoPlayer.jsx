@@ -20,8 +20,11 @@ function VideoPlayer() {
   const close = e => e.target.id === 'video-player' && setShowVideoPlayer(false)
 
   return (
-    <VideoPlayerStyled id="video-player" background={theme.primaryBackground} onClick={close}>
-        <h2 style={{color: '#ffffff', margin: '2.5em 0', fontFamily: 'Product Sans', fontSize: '1.5em'}}>Implement a optimal Search Engine</h2>
+    <VideoPlayerStyled 
+      id="video-player" 
+      background={theme.primaryBackground} 
+      onClick={close}>
+        <h2 style={{color: theme.primaryColor, margin: '2.5em 0', fontFamily: 'Product Sans', fontSize: '1.5em'}}>Implement a optimal Search Engine</h2>
       <VideoPlayerContainer>
         <VideoContainer>
 
