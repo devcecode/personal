@@ -79,7 +79,7 @@ width: 90%;
 margin: 0 auto;
 max-width: 1300px;
 height: auto;
-border-radius: 1em;
+border-radius: .5em;
 `
 
 export const CloseVideoPlayer = styled.button`
